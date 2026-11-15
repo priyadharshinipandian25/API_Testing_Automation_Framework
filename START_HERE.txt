@@ -1,0 +1,11 @@
+START HERE
+
+1. Read README.md.
+2. Install Python 3.10+.
+3. Install dependencies: python -m pip install -r requirements.txt
+4. Start API: python -m uvicorn app.main:app --reload
+5. Open a second terminal and run: pytest -v
+6. Generate report: mkdir reports, then pytest -v --html=reports/api_test_report.html --self-contained-html
+7. Import both JSON files from postman/ into Postman and run collection requests in order.
+
+Important: The demo API is for learning only. Use only systems you are authorized to test.
